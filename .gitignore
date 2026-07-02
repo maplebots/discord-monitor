@@ -1,0 +1,9 @@
+node_modules/
+
+# Saved Discord session — contains live auth cookies, never commit
+~/.discord-monitor/
+session.json
+
+# Logs
+*.log
+messages.jsonl
