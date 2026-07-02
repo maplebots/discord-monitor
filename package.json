@@ -1,0 +1,15 @@
+{
+  "name": "discord-monitor",
+  "version": "1.0.0",
+  "description": "Watch a Discord channel via browser WebSocket interception",
+  "main": "monitor.js",
+  "bin": {
+    "discord-monitor": "./monitor.js"
+  },
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
